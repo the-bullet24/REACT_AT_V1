@@ -1,0 +1,16 @@
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+.featured_events {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+.event_card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
